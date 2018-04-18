@@ -36,6 +36,7 @@ class MyAppState extends State<MyApp> {
               [
 
                 new Checkbox(
+                  activeColor: Colors.red,
                     value: checkBoxValue,
                     onChanged: (bool newValue){
                       setState(() {
